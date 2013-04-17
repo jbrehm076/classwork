@@ -4,7 +4,7 @@
 //Calculate Sparky's dog year age based on actual age
 
 //define actual age
-var sparkyAgeHuman = 5;
+var sparkyAgeHuman = prompt('How old is Sparky in human years?');
 
 //multiply actual by dog year factor and assign variable
 var sparkyAgeDog = sparkyAgeHuman * 7;
@@ -17,14 +17,16 @@ console.log("Sparky is " + sparkyAgeHuman + ' human years old which is ' + spark
 //Slice of Pie part 1
 //calculate amound of pizza per person.
 
+//total pizzas ordered
+var totalPizza = prompt('How many pizzas were ordered for the party?');
+
 //total slices of pizza
-var slicesPerPizza = 8;
+var slicesPerPizza = prompt('How many slices does each pizza have?');
 
 //total people at party
-var totalPeople = 5;
+var totalPeople = prompt ('How many hungry people are at the party?');
 
-//total pizzas ordered
-var totalPizza = 4;
+
 
 //define slices per person. //mult. pizzas by number of slices, and div. by total people for slices per person.
 var slicesPerPerson = totalPizza * slicesPerPizza / totalPeople;
@@ -66,14 +68,14 @@ console.log("You have spent a total of $" + totalSpending + " on groceries over 
 //Discounts
 //calculate discounted price of an item and create an expression to show price with and w/o sales tax.
 
-//define item price
-var priceOriginal = 10;
+//string variable of item description
+var itemDescription = prompt('What are you wanting to buy?');
 
 //define discount percentage
-var discountPercent = 20;
+var discountPercent = prompt('What is discount percentage of ' + itemDescription + '?');
 
-//string variable of item description
-var itemDescription = "baseball bat";
+//define item price
+var priceOriginal = prompt('What is original price of ' + itemDescription + '?');
 
 //define sales tax percentage
 var taxSales = 7;
