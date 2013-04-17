@@ -21,14 +21,26 @@ console.log("Sparky is " + sparkyAgeHuman + ' human years old which is ' + spark
 var slicesPerPizza = 8;
 
 //total people at party
-var totalPeople = 4;
+var totalPeople = 5;
 
 //total pizzas ordered
-var totalPizza = 2;
+var totalPizza = 4;
 
-//mult. pizzas by number of slices, and div. by total people for slices per person.
+//define slices per person. //mult. pizzas by number of slices, and div. by total people for slices per person.
 var slicesPerPerson = totalPizza * slicesPerPizza / totalPeople;
 
 //display results in format requirement
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+
+
+
+//Slice of Pie part II
+//Calculate Sparky's portion of pizza
+
+//use previous variables and variable for sparky's share. //us modulo to calculate sparky's cut
+var sparkyPizza = totalPizza * slicesPerPizza % totalPeople;
+
+//display sparky's cut
+console.log("Sparky got " + sparkyPizza + " slices of pizza.");
+
 
