@@ -44,3 +44,21 @@ var sparkyPizza = totalPizza * slicesPerPizza % totalPeople;
 console.log("Sparky got " + sparkyPizza + " slices of pizza.");
 
 
+
+
+//Average shopping bill
+//calculate total spent on groceries and derive average weekly spending on groceries.
+
+//define 5 week spending array variable
+var weeklySpending = [10, 20, 15, 18, 12];
+
+//define total spent variable and add array contents
+var totalSpending = weeklySpending[0] + weeklySpending[1] + weeklySpending[2] + weeklySpending[3] + weeklySpending[4];
+
+//define avg. weekly spending variable and determine using totalSpending variable.
+var avgSpendingWeek = totalSpending / 5;
+
+//display results in format requirement
+console.log("You have spent a total of $" + totalSpending + " on groceries over 5 weeks. That is an average of $" + avgSpendingWeek + " per week.");
+
+
