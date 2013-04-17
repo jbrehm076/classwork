@@ -62,3 +62,28 @@ var avgSpendingWeek = totalSpending / 5;
 console.log("You have spent a total of $" + totalSpending + " on groceries over 5 weeks. That is an average of $" + avgSpendingWeek + " per week.");
 
 
+
+//Discounts
+//calculate discounted price of an item and create an expression to show price with and w/o sales tax.
+
+//define item price
+var priceOriginal = 10;
+
+//define discount percentage
+var discountPercent = 20;
+
+//string variable of item description
+var itemDescription = "baseball bat";
+
+//define sales tax percentage
+var taxSales = 7;
+
+//define price after discount; mult. original price times discount percent, then subtract from original price.
+var priceDiscount = priceOriginal - priceOriginal * (discountPercent * .01);
+
+
+//define item price w/tax; multiply item price times sales tax and add results to item price
+var priceTaxAdded = priceDiscount + priceDiscount * (taxSales * .01);
+
+//display results in format requirement
+console.log("Your " + itemDescription + " was originally $" + priceOriginal + ", but after a " + discountPercent + "% discount, it is now $" + priceDiscount + " without tax, and $" + priceTaxAdded + " with tax.");
