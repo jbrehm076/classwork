@@ -10,3 +10,6 @@ var transportTime = prompt("How long in minutes does it take for a vehicle to ar
 
 //define how much product is in each container being transported.
 var productNumber = prompt("how much product is in each container?");
+
+//define productMPH; calculation: divide 60 by delivery time for moves per hour. mult. by number of vehicles for total moves per hour. mult * product per container for total product moved per hour. mult by 672 for projected monthly avg at current numbers.
+var productMpm = 60 / transportTime * vehicleNumber * productNumber * 672;
