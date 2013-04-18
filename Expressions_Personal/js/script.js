@@ -16,3 +16,6 @@ var deviceSong = prompt("How many songs do you have on your phone?");
 
 //define avg. size of each song.
 var deviceSongSize = prompt("How much memory does each song take up on average in megabytes?"); 
+
+//define total used space; calculation: no. of pics mult. by avg space per pic plus number of songs mult. by avg size per song.
+var  usageTotal = devicePhotos * devicePhotoSize + deviceSong * deviceSongSize;
