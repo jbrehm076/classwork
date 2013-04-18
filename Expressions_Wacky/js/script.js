@@ -13,3 +13,5 @@ var tireDiaNew = prompt ("What diameter are the tires you want to put on that st
 //define mph to show differences
 var mphGiven = prompt("Enter speedometer reading in miles per hour(mph), you want to test?");
 
+//mult. new tire diameter by speedometer reading, divided by old tire diameter to determine actual speed.
+var speedActual = tireDiaNew * mphGiven / tireDiaOld;
