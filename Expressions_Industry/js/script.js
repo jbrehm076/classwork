@@ -30,7 +30,7 @@ var weekThree = parseInt(prodHist[2], 10);
 var weekFour = parseInt(prodHist[3], 10);
 
 //define historical product move avg; array calc. add historical data, divide by 4 weeks for monthly avg product moves.
-var productHistAvg = (productHist[0] + productHist[1] + productHist[2] + productHist[3]) / 4;
+var productHistAvg = (weekOne + weekTwo + weekThree + weekFour) / 4;
 
 //display data to console in writer defined format.
 console.log("You're currently trending a monthly average of " + productMpm + " moves per month with a historical average of " + productHistAvg + " moves last month.");
