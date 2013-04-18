@@ -23,6 +23,12 @@ prodHist[1] = prompt("Enter total moves for week two of last month");
 prodHist[2] = prompt("Enter total moves for week three of last month");
 prodHist[3] = prompt("Enter total moves for week four of last month");
 
+//add parseInt for converting string to numerical data in base 10. defining variables for each.
+var weekOne = parseInt(prodHist[0], 10);
+var weekTwo = parseInt(prodHist[1], 10);
+var weekThree = parseInt(prodHist[2], 10);
+var weekFour = parseInt(prodHist[3], 10);
+
 //define historical product move avg; array calc. add historical data, divide by 4 weeks for monthly avg product moves.
 var productHistAvg = (productHist[0] + productHist[1] + productHist[2] + productHist[3]) / 4;
 
