@@ -16,3 +16,6 @@ var productMpm = 60 / transportTime * vehicleNumber * productNumber * 672;
 
 //define 4 weeks historical product moved.
 var productHist = [850356, 935103, 1000324, 950232];
+
+//define historical product move avg; array calc. add historical data, divide by 4 weeks for monthly avg product moves.
+var productHistAvg = (productHist[0] + productHist[1] + productHist[2] + productHist[3]) / 4;
