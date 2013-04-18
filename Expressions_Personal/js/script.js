@@ -6,7 +6,7 @@
 var deviceType = prompt("What type of device are you using to store your songs and photos? i.e. ipod"); 
 
 //define how many photo's are on phone
-var devicePhotos = prompt("How many photos are on your " + deviceType + " phone?");
+var devicePhotos = prompt("How many photos are on your " + deviceType + "?");
 
 //define average size of each photo
 var devicePhotoSize = prompt("How much memory does each photo take up in megabytes on average on your " + deviceType + "?");
