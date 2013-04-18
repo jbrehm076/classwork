@@ -51,11 +51,25 @@ console.log("Sparky got " + sparkyPizza + " slices of pizza.");
 //Average shopping bill
 //calculate total spent on groceries and derive average weekly spending on groceries.
 
-//define 5 week spending array variable
-var weeklySpending = [10, 20, 15, 18, 12];
+//start new array
+var weeklySpendingArray = new Array(5);
+
+//define 5 week spending amount to array variables.
+weeklySpendingArray[0] = prompt("How much money was spent the first week?");
+weeklySpendingArray[1] = prompt("How much money was spent the second week?");
+weeklySpendingArray[2] = prompt("How much money was spent the third week?");
+weeklySpendingArray[3] = prompt("How much money was spent the fourth week?");
+weeklySpendingArray[4] = prompt("How much money was spent the fifth week?");
+
+//Using parseInt command to ensure collected array data is numeric and in base 10.
+var weekOne = parseInt(weeklySpendingArray[0], 10);
+var weekTwo = parseInt(weeklySpendingArray[1], 10);
+var weekThree = parseInt(weeklySpendingArray[2], 10);
+var weekFour = parseInt(weeklySpendingArray[3], 10);
+var weekFive = parseInt(weeklySpendingArray[4], 10);
 
 //define total spent variable and add array contents
-var totalSpending = weeklySpending[0] + weeklySpending[1] + weeklySpending[2] + weeklySpending[3] + weeklySpending[4];
+var totalSpending = weekOne[0] + weekTwo[1] + weekThree[2] + weekFour[3] + weekfive[4];
 
 //define avg. weekly spending variable and determine using totalSpending variable.
 var avgSpendingWeek = totalSpending / 5;
