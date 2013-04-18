@@ -17,4 +17,4 @@ var mphGiven = prompt("Enter speedometer reading in miles per hour(mph), you wan
 var speedActual = tireDiaNew * mphGiven / tireDiaOld;
 
 //display info and appropriate message
-console.log("For " + beastName + ", at " + mphGiven + " mph on your speedometer, you're actually going " + speedActual + " mph.");
+console.log("For " + beastName + ", with the new " + tireDiaNew + " inch tires at " + mphGiven + " mph on your speedometer, you're actually going " + speedActual + " mph.");
