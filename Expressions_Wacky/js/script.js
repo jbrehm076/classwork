@@ -3,3 +3,6 @@
 //Purpose Determine mph difference when using larger tires on your 4x4.
 //define the machine's name
 var beastName = prompt("What's the name of your 4x4 rig?");
+
+//define current tire size
+var tireDiaOld = prompt("What is the current tire diameter on your mall-crawler?");
