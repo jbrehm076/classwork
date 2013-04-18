@@ -9,3 +9,7 @@ var tireDiaOld = prompt("What is the current tire diameter on your mall-crawler?
 
 //define new tire size
 var tireDiaNew = prompt ("What diameter are the tires you want to put on that stump-jumper?");
+
+//define mph to show differences
+var mphGiven = prompt("Enter speedometer reading in miles per hour(mph), you want to test?");
+
