@@ -6,3 +6,6 @@ var beastName = prompt("What's the name of your 4x4 rig?");
 
 //define current tire size
 var tireDiaOld = prompt("What is the current tire diameter on your mall-crawler?");
+
+//define new tire size
+var tireDiaNew = prompt ("What diameter are the tires you want to put on that stump-jumper?");
