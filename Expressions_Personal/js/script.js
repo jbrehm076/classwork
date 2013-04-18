@@ -10,3 +10,6 @@ var devicePhotos = prompt("How many photos are on your phone?");
 
 //define average size of each photo
 var devicePhotoSize = prompt("How much memory does each photo take up in megabytes on average?");
+
+//define how many songs are on phone
+var deviceSong = prompt("How many songs do you have on your phone?");
