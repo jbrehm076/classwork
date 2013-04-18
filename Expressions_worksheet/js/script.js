@@ -69,7 +69,7 @@ var weekFour = parseInt(weeklySpendingArray[3], 10);
 var weekFive = parseInt(weeklySpendingArray[4], 10);
 
 //define total spent variable and add array contents
-var totalSpending = weekOne[0] + weekTwo[1] + weekThree[2] + weekFour[3] + weekFive[4];
+var totalSpending = weekOne + weekTwo + weekThree + weekFour + weekFive;
 
 //define avg. weekly spending variable and determine using totalSpending variable.
 var avgSpendingWeek = totalSpending / 5;
