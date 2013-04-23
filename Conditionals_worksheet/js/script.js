@@ -5,3 +5,5 @@
 
 //define variables and collect data
 var gasEff = prompt("What is the efficientcy of your vehicle in mpg?");
+
+var gasRead = prompt("How full is your gas tank (in percent)?");
