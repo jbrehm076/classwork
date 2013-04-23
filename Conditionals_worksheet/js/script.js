@@ -7,3 +7,4 @@
 var gasEff = prompt("What is the efficientcy of your vehicle in mpg?");
 
 var gasRead = prompt("How full is your gas tank (in percent)?");
+var gasCap = prompt("How gallons of fuel does your fuel tank hold?");
