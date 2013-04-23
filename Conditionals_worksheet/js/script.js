@@ -17,8 +17,8 @@ var carRange = fuelNow * gasEff;
 
 if(carRange < 200){
 	//if range is less than 200 miles
-	console.log("You only have " + );
+	console.log("You only have " + fuelNow + " gallons of gas in your tank, better get gas now while you can!");
 }else{
 	//
-	console.log();
+	console.log("Yes, you can make it without stopping for gas!");
 }
