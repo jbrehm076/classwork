@@ -29,7 +29,7 @@ if(carRange < 200){
 //purpose: authenticate login and password then output console message as prescribed by assignment.
 
 
-//define and prompt for variables.
+//define and prompt for variables input name and input password.
 var nameInput = prompt("Enter username");
 var pwdInput = prompt("Enter password");
 
@@ -45,4 +45,11 @@ if(nameInput === correctName && pwdInput === correctPwd){
 }else{
 	console.log("Password does not match our records.");
 }
+
+
+//Movie Ticket Price
+//purpose: using movie start time and age of viewer, determine if the age will yield discount along with discount due to matinee prices.
+
+
+
 		
