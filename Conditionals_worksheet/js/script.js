@@ -23,3 +23,9 @@ if(carRange < 200){
 	//
 	console.log("Yes, you can make it without stopping for gas!");
 }
+
+
+//Check the Login
+//purpose: authenticate login and password then output console message as prescribed by assignment.
+
+
