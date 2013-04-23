@@ -55,7 +55,7 @@ var viewerAge = prompt("How old are you?");
 var movieTime = prompt("What time does the movie start? Note: All movies start on the hour.");
 var ticketPrice
 
-//ternary using a compound comparison of 2 seperate comparisons with write to ticketPrice variable and console display.
+//ternary using a compound comparison of 2 seperate comparisons with write to ticketPrice variable and console display.added . to output. was driving me nuts.
 ticketPrice = ((viewerAge >= 55 || viewerAge < 10) || (movieTime <= "5" && movieTime >= "3")) ? "$7.00." : "$12.00.";
 console.log("The ticket price is " + ticketPrice);
 
