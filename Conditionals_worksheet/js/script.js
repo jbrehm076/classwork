@@ -38,9 +38,9 @@ var correctName = "dude21";
 var correctPwd = "buddy13";
 
 //implement logic comparitor with else statements for subsequent arguements. if name AND pwd match print welcome message. else if name doesn't match print username error. if previous 2 comparisons don't work it must be password error and print password error.
-if(nameInput === correctName || pwdInput === correctPwd){
+if(nameInput === correctName && pwdInput === correctPwd){
 	console.log('Welcome, ' + nameInput + "!");
-}else if(nameInput /= correctName){
+}else if(nameInput != correctName){
 	console.log("User not found. Try again.");
 }else{
 	console.log("Password does not match our records.");
