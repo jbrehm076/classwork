@@ -4,13 +4,13 @@
 //purpose: determine if refuel is needed in order to reach next station 200 miles away.
 
 //define variables and collect data
-var gasEff = prompt("What is the efficientcy of your vehicle in mpg?");
+var gasEff = prompt("What is the efficiency of your vehicle in mpg?");
 
 var gasRead = prompt("How full is your gas tank (in percent)?");
 var gasCap = prompt("How gallons of fuel does your fuel tank hold?");
 
 //determine amount of fuel= capacity times percentage read. det. max range with calculated amount of fuel = amount times mpg.
-var fuelNow = gasCap * gasRead
+var fuelNow = gasCap * (gasRead * .01)
 var carRange = fuelNow * gasEff;
 
 //if / then statement to determine if refueling needed with required else statement
