@@ -10,13 +10,14 @@ var gasRead = prompt("How full is your gas tank (in percent)?");
 var gasCap = prompt("How gallons of fuel does your fuel tank hold?");
 
 //determine amount of fuel= capacity times percentage read. det. max range with calculated amount of fuel = amount times mpg.
-var carRange = gasCap * gasRead * gasEff;
+var fuelNow = gasCap * gasRead
+var carRange = fuelNow * gasEff;
 
 //if / then statement to determine if refueling needed with required else statement
 
-if(){
+if(carRange < 200){
 	//if range is less than 200 miles
-	console.log();
+	console.log("You only have " + );
 }else{
 	//
 	console.log();
