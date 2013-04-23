@@ -6,9 +6,9 @@
 //define variables and collect data
 var gasRead = prompt("How full is your gas tank (in percent)?");
 
-var gasEff = prompt("What is the efficiency of your vehicle in mpg?");
-
 var gasCap = prompt("How gallons of fuel does your fuel tank hold?");
+
+var gasEff = prompt("What is the efficiency of your vehicle in mpg?");
 
 //determine amount of fuel= capacity times percentage read. det. max range with calculated amount of fuel = amount times mpg.
 var fuelNow = gasCap * (gasRead * .01)
