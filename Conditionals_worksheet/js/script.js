@@ -29,3 +29,8 @@ if(carRange < 200){
 //purpose: authenticate login and password then output console message as prescribed by assignment.
 
 
+//define and prompt for variables.
+var nameInput = prompt("Enter username");
+var pwdInput = prompt("Enter password");
+
+//define correct user name and passwords
