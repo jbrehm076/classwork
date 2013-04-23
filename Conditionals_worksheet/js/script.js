@@ -34,3 +34,5 @@ var nameInput = prompt("Enter username");
 var pwdInput = prompt("Enter password");
 
 //define correct user name and passwords
+var correctName = dude21;
+var correctPwd = buddy13;
