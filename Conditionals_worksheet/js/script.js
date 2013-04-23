@@ -50,6 +50,23 @@ if(nameInput === correctName && pwdInput === correctPwd){
 //Movie Ticket Price
 //purpose: using movie start time and age of viewer, determine if the age will yield discount along with discount due to matinee prices.
 
+//define viewer age and movie start variables with prompt. 
+var viewerAge = prompt("How old are you?");
+var movieTime = prompt("What time does the movie start? Note: All movies start on the hour.");
+
+//defined ticket pricing variables.
+var ticketDisc = "$7.00";
+var ticketNorm = "$12.00";
+var ticketActual
+
+//compare variables as any trues will result in discounted price.
+if(viewerAge >= 55 || viewerAge < 10){
+	ticketActual = ticketDisc;
+}else if(movieTime <= "5" && movieTime >= "3");
+	ticketActual = ticketDisc;
+}else(ticketActual = ticketNorm){}
+console.log("The ticket price is " + ticketActual + ".");
 
 
+	
 		
