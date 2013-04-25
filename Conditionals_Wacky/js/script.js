@@ -30,4 +30,7 @@ if((shopTime >= 8) && (shopTime < 12)){
 }else{
 	//print to console you do not qualify for discount
 	console.log("Sorry but your Premium purchase does not qualify for a discount.");
+	//adjust variable for total premium to regular rate.
+	premTot = foodPrem * 2;
+}
 
