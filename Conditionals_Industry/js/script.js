@@ -32,3 +32,7 @@ if(maintTime > shiftTime){
 }else if(breakTime > shiftTime){
 	//break time won't fit into schedule
 	console.log("Sorry but you won't be able to take a break this shift.");
+}else{
+	//there is enough time to take a break within the shift and complete maint.
+	console.log("You have enough time to take a break this shift and complete your maintenance.");
+}
