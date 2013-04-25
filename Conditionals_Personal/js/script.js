@@ -23,3 +23,5 @@ if(bpSys == "" || erectDisf == "" || nitroTaken == ""){
 }
 //determine total doses of nitro remaining. Three minus nitroTaken variable. Define nitro available var.
 var nitroAvail = 3 - nitroTaken;
+
+//If ED med taken, patient not able to take nitro pre-hospital. Ternary with statement to console.
