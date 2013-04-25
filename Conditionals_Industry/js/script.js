@@ -9,3 +9,4 @@ var shiftTime = prompt("How many hours are alloted for maintenance for this shif
 
 //Validation
 //Check for null or lack of data collected from prompts to user using or boolean statement.
+if(toolNum == "" || shiftTime == ""){
