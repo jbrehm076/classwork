@@ -4,3 +4,6 @@
 
 //define systolic variable and prompt for input
 var bpSys = prompt("What is current systolic pressure in mmHg? i.e. 120 / 80 where 120 is the systolic pressure.");
+
+//define ED variable and prompt for data. Define nitro eligibility variable for later use 
+var erectDisf = prompt("Are you currently on erectile disfunction (ED) medications? Yes or No.");
