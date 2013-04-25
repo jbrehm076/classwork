@@ -17,3 +17,7 @@ var nitroTaken = prompt("How many doses of nitro have you taken already?");
 if(bpSys == "" || erectDisf == "" || nitroTaken == ""){
 	//display that user did not correctly input data requested.
 	console.log("You did not correctly supply data needed.");
+}else{
+	//display to console data entry sufficient.
+	console.log("Data submitted. Please Wait.");
+}
