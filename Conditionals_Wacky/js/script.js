@@ -8,3 +8,6 @@ var premTot;
 
 //define how many lbs of standard dog food are to be bought.
 var foodStd = prompt("How many pounds of standard food do you want to buy?");
+
+//define when user is going to go to store.
+var shopTime = prompt("At what hour do you plan to go to the store?");
