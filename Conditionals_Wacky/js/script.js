@@ -16,3 +16,4 @@ var shopTime = prompt("At what hour do you plan to go to the store?");
 //determine if any of the data collected from user is empty using or boolean algebra.
 if(foodPrem == "" || foodStd == "" || shopTime == ""){
 	//one or more of the fields is empty. Display to console they didn't fill in the blanks.
+		console.log("Ah, ah, ah... You didn't fill in the blanks correctly!");
