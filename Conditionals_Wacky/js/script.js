@@ -23,3 +23,5 @@ if(foodPrem == "" || foodStd == "" || shopTime == ""){
 }
 //determine if premium food is eligible for discount between 8am and noon,and apply to variable.
 if((shopTime >= 8) && (shopTime < 12)){
+	//print to console you qualify for the discount
+	console.log("You qualify for a discount on your premium dog food.");
