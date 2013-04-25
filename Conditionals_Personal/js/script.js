@@ -21,3 +21,5 @@ if(bpSys == "" || erectDisf == "" || nitroTaken == ""){
 	//display to console data entry sufficient.
 	console.log("Data submitted. Please Wait.");
 }
+//determine total doses of nitro remaining. Three minus nitroTaken variable. Define nitro available var.
+var nitroAvail = 3 - nitroTaken;
