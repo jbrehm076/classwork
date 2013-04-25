@@ -27,3 +27,6 @@ var nitroAvail = 3 - nitroTaken;
 //If ED med taken, patient not able to take nitro pre-hospital. Ternary with statement to console.
 edYesNo = (erectDisf == "Yes"  || erectDisf == "yes") ? "Due to medications already taken, you cannot take nitro" : "No ED contraindications present.";
 
+//display ternary result variable to console.
+console.log(edYesNo);
+
