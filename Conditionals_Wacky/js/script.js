@@ -21,3 +21,5 @@ if(foodPrem == "" || foodStd == "" || shopTime == ""){
 	//all fields have data in them. Display to console thank you for submissions.
 		console.log("Thank you for your submissions.");
 }
+//determine if premium food is eligible for discount between 8am and noon,and apply to variable.
+if((shopTime >= 8) && (shopTime < 12)){
