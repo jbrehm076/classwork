@@ -33,4 +33,10 @@ if((shopTime >= 8) && (shopTime < 12)){
 	//adjust variable for total premium to regular rate.
 	premTot = foodPrem * 2;
 }
+//compute total food purchase. total premium plus standard. define food price total variable.
+var priceTot = premTot + foodStd * .75;
 
+//display to console total amount spent on purchase
+console.log("You spent $" + priceTot + " on your dog food today.");
+
+	
