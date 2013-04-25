@@ -19,3 +19,5 @@ if(toolNum == "" || shiftTime == ""){
 }
 
 //calculate total maintenance time. number of tools times 20 = total time in min, then divide by 60 for hours. define maint. time variable.
+var maintTime = toolNum * 20 / 60;
+
