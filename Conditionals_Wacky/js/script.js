@@ -19,3 +19,5 @@ if(foodPrem == "" || foodStd == "" || shopTime == ""){
 		console.log("Ah, ah, ah... You didn't fill in the blanks correctly!");
 }else{
 	//all fields have data in them. Display to console thank you for submissions.
+		console.log("Thank you for your submissions.");
+}
