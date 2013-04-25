@@ -30,3 +30,5 @@ edYesNo = (erectDisf == "Yes"  || erectDisf == "yes") ? "Due to medications alre
 //display ternary result variable to console.
 console.log(edYesNo);
 
+//determine if systolic pressure is at acceptable levels and how many doses can be administered. Incorporate all variables in AND boolean conditional.
+
