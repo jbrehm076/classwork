@@ -4,3 +4,5 @@
 
 //define how many lbs of premium dog food and establish variable for use in discounting 10 percent.
 var foodPrem = prompt("How many pounds of premium food do you want to buy?");
+
+var premTot
