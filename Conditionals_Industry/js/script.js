@@ -15,3 +15,6 @@ if(toolNum == "" || shiftTime == ""){
 //else operand		   
 }else{
 	  //validation complete without errors found, display to console data correctly submitted.
+	  console.log("Data submitted. Please wait.");
+}
+
