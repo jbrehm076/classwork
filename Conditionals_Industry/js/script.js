@@ -12,3 +12,6 @@ var shiftTime = prompt("How many hours are alloted for maintenance for this shif
 if(toolNum == "" || shiftTime == ""){
 		   //undefined variable found. display to console verbally admonishing user.
 		   console.log("If you fail to completely fill in the blanks, I cannot answer you accurately.");
+//else operand		   
+}else{
+	  //validation complete without errors found, display to console data correctly submitted.
