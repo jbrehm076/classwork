@@ -28,3 +28,7 @@ var breakTime = maintTime + 1;
 if(maintTime > shiftTime){
 	//not enough time to complete maintenance
 	console.log("Total maintenance time required exceeds the length of shift.");
+//compare shift time to total time with break included.
+}else if(breakTime > shiftTime){
+	//break time won't fit into schedule
+	console.log("Sorry but you won't be able to take a break this shift.");
