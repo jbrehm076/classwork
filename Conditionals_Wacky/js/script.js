@@ -11,3 +11,6 @@ var foodStd = prompt("How many pounds of standard food do you want to buy?");
 
 //define when user is going to go to store.
 var shopTime = prompt("At what hour do you plan to go to the store?");
+
+//validation conditional
+//determine if any of the data collected from user is empty using or boolean algebra.
