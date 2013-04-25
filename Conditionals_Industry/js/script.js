@@ -18,3 +18,4 @@ if(toolNum == "" || shiftTime == ""){
 	  console.log("Data submitted. Please wait.");
 }
 
+//calculate total maintenance time. number of tools times 20 = total time in min, then divide by 60 for hours. define maint. time variable.
