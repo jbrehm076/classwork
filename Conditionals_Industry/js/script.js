@@ -6,3 +6,6 @@ var toolNum = prompt("How many tools are scheduled for maintenance for this shif
 
 //define how long is shift.
 var shiftTime = prompt("How many hours are alloted for maintenance for this shift?");
+
+//Validation
+//Check for null or lack of data collected from prompts to user using or boolean statement.
