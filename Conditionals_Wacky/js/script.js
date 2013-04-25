@@ -27,4 +27,7 @@ if((shopTime >= 8) && (shopTime < 12)){
 	console.log("You qualify for a discount on your premium dog food.");
 	//adjust variable for total premium to discount rate.
 	premTot = foodPrem * 1.8;
+}else{
+	//print to console you do not qualify for discount
+	console.log("Sorry but your Premium purchase does not qualify for a discount.");
 
