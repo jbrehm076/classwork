@@ -17,3 +17,5 @@ var shopTime = prompt("At what hour do you plan to go to the store?");
 if(foodPrem == "" || foodStd == "" || shopTime == ""){
 	//one or more of the fields is empty. Display to console they didn't fill in the blanks.
 		console.log("Ah, ah, ah... You didn't fill in the blanks correctly!");
+}else{
+	//all fields have data in them. Display to console thank you for submissions.
