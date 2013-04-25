@@ -5,3 +5,4 @@
 var toolNum = prompt("How many tools are scheduled for maintenance for this shift?");
 
 //define how long is shift.
+var shiftTime = prompt("How many hours are alloted for maintenance for this shift?");
