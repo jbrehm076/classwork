@@ -34,4 +34,6 @@ console.log(edYesNo);
 if((erectDisf == "No"  || erectDisf == "no") && bpSys > 100 && nitroAvail > 0){
 	//display to console instructional message for true results of if statement.
 	console.log("With a systolic of " + bpSys + " mmHg, you are eligible for nitro treatment. You have " + nitroAvail + " dose(s) available. Administer one now with remaining dose(s) to be taken at 5 min intervals if chest pain does not subside. Call 911.");
+}else{
+	//display to console instructional message for false results of if boolean statement.
 
