@@ -7,3 +7,4 @@ var foodPrem = prompt("How many pounds of premium food do you want to buy?");
 var premTot;
 
 //define how many lbs of standard dog food are to be bought.
+var foodStd = prompt("How many pounds of standard food do you want to buy?");
