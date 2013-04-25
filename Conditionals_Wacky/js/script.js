@@ -25,3 +25,6 @@ if(foodPrem == "" || foodStd == "" || shopTime == ""){
 if((shopTime >= 8) && (shopTime < 12)){
 	//print to console you qualify for the discount
 	console.log("You qualify for a discount on your premium dog food.");
+	//adjust variable for total premium to discount rate.
+	premTot = foodPrem * 1.8;
+
