@@ -24,3 +24,7 @@ var maintTime = toolNum * 20 / 60;
 // define breakTime. total maint. time plus 1 hr for a break.
 var breakTime = maintTime + 1; 
 
+//compare total maintenance time to total shift 
+if(maintTime > shiftTime){
+	//not enough time to complete maintenance
+	console.log("Total maintenance time required exceeds the length of shift.");
