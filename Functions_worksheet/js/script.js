@@ -1,9 +1,18 @@
-// Written by Jeramie Brehm, 30APR2013, Screencast: Functions //
+// Written by  Jeramie Brehm; 30APR2013, Functions: worksheets //
 
-function dogYears(age){
-	var dogYears = age * 7;
-	console.log("Sparky is " + dogYears + " years old.")
-}
-var age1 = 4;
-dogYears(age1);
-dogYears(5);
+//Circumference
+//calculate the circumference of a circle.
+
+//Variables
+//define and prompt user for radius property of the circle.
+var cirRad = prompt("What is the radius of the circle?");
+
+//define circumference variable and setup function passing arguments.
+var circ = calcCirc(radius, pi);
+//display to console text message with completed circumference.
+
+	//
+
+
+
+c=pi * d
