@@ -15,6 +15,7 @@ var circTot = calcCirc(circRad, pi);
 function calcCirc(circRad, pi){
 	var circumference = 2 * circRad * pi;
 	return circumference;
+}
 //display to console text message with completed circumference.
 console.log("The circumference of the circle is " + circTot;
 	//
