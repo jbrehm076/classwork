@@ -21,7 +21,8 @@ function calcCirc(circRad, pi){
 }
 //display to console text message with completed circumference.
 console.log("The circumference of the circle is " + circTot +".");
-	//
 
 
+//Stung!
+//stated 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal with prompted data.
 
