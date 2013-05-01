@@ -46,4 +46,4 @@ function calcStings(vicLbs, killDose){
 	return stingCount;
 }
 //display to console text message with completed number of stings to kill.
-console.log("It takes " + + " bee stings to kill a " + vicType + ".");
+console.log("It takes " + stingsKill + " bee stings to kill a " + vicType + ".");
