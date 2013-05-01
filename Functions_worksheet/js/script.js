@@ -39,3 +39,6 @@ var stingsKill = calcStings(vicLbs, killDose);
 
 //Function: # of stings to kill.
 //execute calculation for sting # to kill
+function calcStings(vicLbs, killDose){
+	
+}
