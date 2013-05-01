@@ -42,5 +42,6 @@ var stingsKill = calcStings(vicLbs, killDose);
 function calcStings(vicLbs, killDose){
 	//def killing sting count and equation equals fatal stings per pound times number of pounds.
 	var stingCount = killDose * vicLbs;
-	
+	//return statement returning stingCount variable.
+	return stingCount;
 }
