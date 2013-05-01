@@ -6,13 +6,15 @@
 //Variables
 //define and prompt user for radius property of the circle.
 var circRad = prompt("What is the radius of the circle?");
-
+//define pi out 2 decimal points.
+var pi = 3.14;
 //define circumference variable and setup function passing arguments.
 var circTot = calcCirc(circRad, pi);
 
 //Function:circumference
 //execute calculation for circumference = two times radius times Pi
 function calcCirc(circRad, pi){
+	
 	var circumference = 2 * circRad * pi;
 	return circumference;
 }
