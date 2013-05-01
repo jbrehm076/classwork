@@ -22,4 +22,3 @@ console.log("The circumference of the circle is " + circTot);
 
 
 
-c=pi * d
