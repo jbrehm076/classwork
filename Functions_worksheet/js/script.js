@@ -34,5 +34,8 @@ var vicType = prompt("What was stung? i.e. dog, human.");
 //define fatal dose variable
 var killDose = 8.666666667;
 
+//define dose variable and setup function passing arguements.
+var stingsKill = calcStings(vicLbs, killDose);
+
 //Function: # of stings to kill.
 //execute calculation for sting # to kill
