@@ -19,7 +19,7 @@ function calcCirc(circRad, pi){
 	return circumference;
 }
 //display to console text message with completed circumference.
-console.log("The circumference of the circle is " + circTot);
+console.log("The circumference of the circle is " + circTot) +".";
 	//
 
 
