@@ -26,3 +26,10 @@ console.log("The circumference of the circle is " + circTot +".");
 //Stung!
 //stated 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal with prompted data.
 
+//Variables
+//define and prompt user for the weight of victim in pounds
+var vicLbs = prompt("How much did the victim weigh in pounds?");
+//prompt user for what was stung.
+var vicType = prompt("What was stung? i.e. dog, human.");
+//define fatal dose variable
+var killDose = 8.666666667;
