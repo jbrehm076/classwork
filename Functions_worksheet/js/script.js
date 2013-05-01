@@ -12,10 +12,11 @@ var pi = 3.14;
 var circTot = calcCirc(circRad, pi);
 
 //Function:circumference
-//execute calculation for circumference = two times radius times Pi
+//execute calculation for circumference 
 function calcCirc(circRad, pi){
-	
+	//def. circumference variable and equation equals two times radius times Pi
 	var circumference = 2 * circRad * pi;
+	//return statement returning resultants calculated in function.
 	return circumference;
 }
 //display to console text message with completed circumference.
