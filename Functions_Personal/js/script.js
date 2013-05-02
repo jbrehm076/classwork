@@ -37,3 +37,5 @@ if (curTime > prevTime){
    }else if(curTime <= timeActual){
    //else statement for meeting time goal and rest of day off eligibility
    console.log("You have met your time goal and are eligible for the rest of the day off.");
+   //else statement if none of above conditions are correct.
+   }else {
