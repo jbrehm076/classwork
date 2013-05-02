@@ -7,3 +7,5 @@
 var birthM = prompt("What month were you born in? Use number for month. i.e. October = 10");
 //define year of birth and prompt for data
 var birthY = prompt("What year were you born in? Please use four digit year. i.e. 1980.");
+//define this month's numeric data and prompt
+var currentM = prompt("What month are we currently in? Use number for month. i.e. April = 4");
