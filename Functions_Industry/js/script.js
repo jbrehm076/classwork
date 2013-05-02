@@ -23,3 +23,6 @@ var numPos = prompt("How many positions are open for advancement?");
 var meetElg
 //call for function with arguments
 var yourChances = calcAdvPerc(numElg, numPos);
+
+//ternary determining if time in position requirement fulfilled.
+meetElg = (timePos >= 3) ? "and you meet time in position requirements" : "But you do not meet time in position requirements.";
