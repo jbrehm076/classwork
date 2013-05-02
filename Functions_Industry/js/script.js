@@ -13,3 +13,5 @@ var calcAdvPerc = function(candidates, openings){
 }
 
 //VARIABLES
+//defined time worked in position variable
+var timePos = prompt("How many years have you worked in your position?");
