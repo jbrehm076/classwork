@@ -26,3 +26,6 @@ var yourChances = calcAdvPerc(numElg, numPos);
 
 //ternary determining if time in position requirement fulfilled.
 meetElg = (timePos >= 3) ? "and you meet time in position requirements" : "But you do not meet time in position requirements.";
+
+//display message to console the percentage advancement and results of eligibility check.
+console.log("You have a " + yourChances + " percent chance to be promoted, " + meetElg);
