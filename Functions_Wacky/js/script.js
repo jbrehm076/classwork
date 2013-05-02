@@ -18,3 +18,5 @@ var bgCheck = prompt("Did you pass your background check? yes or no");
 //FUNCTION
 //initial function line setup with 4 arguements. Had issues with data being interpreted as string data. used parseInt to ensure integer data.
 function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
+	//define current time in months and parse variable and ensure it is an integer in base 10.
+	var timeCMI = parseInt(timeCM, 10);
