@@ -26,3 +26,5 @@ var percTime = calcTimePer(prevTime, percentAct);
 
 //define needed time to beat to hit goal.
 var timeActual = prevTime - percTime;
+//display to console text with actual time to beat.
+console.log("To meet your goal you must beat " + timeActual + " minutes.");
