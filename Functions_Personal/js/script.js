@@ -18,3 +18,5 @@ var prevTime = prompt("What was your last time for 5 mile run in minutes? i.e. 5
 var curTime = prompt("What was your current time for 5 mile run in minutes? i.e. 5, 4.5");
 //define the percentage of improvement and prompt for data.
 var percent = prompt("What percentage are you trying to exceed?");
+//define actual percentage and conversion of percenatage variable for computational use.
+var percentAct = (percent * .01);
