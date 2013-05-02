@@ -14,3 +14,5 @@ var currentM = prompt("What month are we currently in? Use number for month. i.e
 var currentY = prompt("What year are we currently in? Please use four digit year. i.e. 1947");
 //define background check variable w/ prompt.
 var bgCheck = prompt("Did you pass your background check? yes or no");
+
+//FUNCTION
