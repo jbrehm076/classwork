@@ -31,3 +31,5 @@ console.log("To meet your goal you must beat " + timeActual + " minutes.");
 
 //else if statement comparing current and previous times
 if (curTime > prevTime){
+   //display text for non improvement
+   console.log("You time has not improved.");
