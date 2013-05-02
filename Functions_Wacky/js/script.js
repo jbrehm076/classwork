@@ -16,3 +16,5 @@ var currentY = prompt("What year are we currently in? Please use four digit year
 var bgCheck = prompt("Did you pass your background check? yes or no");
 
 //FUNCTION
+//initial function line setup with 4 arguements. Had issues with data being interpreted as string data. used parseInt to ensure integer data.
+function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
