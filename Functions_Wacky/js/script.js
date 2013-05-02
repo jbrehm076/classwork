@@ -30,3 +30,5 @@ function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
 	var currentMonths = timeCMI + timeCYI * 12;
 	//define birth date in months equals birth year times 12 months plus months already passed at month of birth.
 	var birthMonths = timeBMI + timeBYI * 12;
+	//define final age in years by subtracting the persons total months alive from current dates total months and divide by 12 to compute years.
+	var ageYears = (currentMonths - birthMonths) / 12;
