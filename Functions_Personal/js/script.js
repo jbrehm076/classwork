@@ -12,3 +12,5 @@ var calcTimePer = function(lastTime, percent){
 }
 
 //VARIABLES
+//define previous time variable with prompt for data
+var prevTime = prompt("What was your last time for 5 mile run in minutes? i.e. 5, 4.5");
