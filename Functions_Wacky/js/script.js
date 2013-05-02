@@ -35,3 +35,5 @@ function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
 	//return results to function call
 	return ageYears;
 }
+//define actual age and function call to calculate total age.
+var ageActual = calcTimeMonths(currentM, currentY, birthM, birthY);
