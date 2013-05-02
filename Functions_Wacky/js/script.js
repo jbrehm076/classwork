@@ -48,3 +48,8 @@ if(ageActual <= 18){
 	}else if(ageActual >= 18 && bgCheck == "yes"){
 	//push to console statement declaring both parts of AND boolean expression are true.
 	console.log("You are eligible to participate in this offer with valid voucher.");
+//else statement if AND requirements are not met.	
+}else{
+	//push to console statement that background check variable does not equal "yes"
+	console.log("You did not pass the background check.");
+}
