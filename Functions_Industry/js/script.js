@@ -19,3 +19,5 @@ var timePos = prompt("How many years have you worked in your position?");
 var numElg = prompt("How many people total (including yourself) are eligible for these positions?");
 //defined number of positions that are open for advancement.
 var numPos = prompt("How many positions are open for advancement?");
+//defined eligibility variable for later use
+var meetElg
