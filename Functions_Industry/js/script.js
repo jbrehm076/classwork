@@ -15,3 +15,5 @@ var calcAdvPerc = function(candidates, openings){
 //VARIABLES
 //defined time worked in position variable
 var timePos = prompt("How many years have you worked in your position?");
+//defined number eligible for promotion variable with prompt for data.
+var numElg = prompt("How many people total (including yourself) are eligible for these positions?");
