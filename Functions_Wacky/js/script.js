@@ -1,1 +1,1 @@
-// JavaScript written by Jeramie Brehm 24APR2013; Conditionals Wacky //
+// JavaScript written by Jeramie Brehm 1MAY2013; Professional Wacky //
