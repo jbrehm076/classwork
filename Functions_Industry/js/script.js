@@ -6,3 +6,4 @@
 //FUNCTION
 //annonymous function to determine percentage of getting position.
 var calcAdvPerc = function(candidates, openings){
+	//define percentage variable and equation
