@@ -28,3 +28,6 @@ var percTime = calcTimePer(prevTime, percentAct);
 var timeActual = prevTime - percTime;
 //display to console text with actual time to beat.
 console.log("To meet your goal you must beat " + timeActual + " minutes.");
+
+//else if statement comparing current and previous times
+if (curTime > prevTime){
