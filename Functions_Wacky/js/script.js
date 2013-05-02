@@ -28,3 +28,5 @@ function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
 	var timeBYI = parseInt(timeBY, 10);
 	//define total current date in months equals current year times 12 months plus months already passed.
 	var currentMonths = timeCMI + timeCYI * 12;
+	//define birth date in months equals birth year times 12 months plus months already passed at month of birth.
+	var birthMonths = timeBMI + timeBYI * 12;
