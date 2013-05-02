@@ -21,3 +21,5 @@ var numElg = prompt("How many people total (including yourself) are eligible for
 var numPos = prompt("How many positions are open for advancement?");
 //defined eligibility variable for later use
 var meetElg
+//call for function with arguments
+var yourChances = calcAdvPerc(numElg, numPos);
