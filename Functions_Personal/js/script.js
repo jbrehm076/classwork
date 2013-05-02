@@ -10,3 +10,5 @@ var calcTimePer = function(lastTime, percent){
 	//Returns results back to function call
 	return timePercent;
 }
+
+//VARIABLES
