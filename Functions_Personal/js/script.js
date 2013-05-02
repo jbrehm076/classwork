@@ -1,2 +1,2 @@
-// JavaScript written by Jeramie Brehm 24 April 2013. Conditionals Personal //
+// JavaScript written by Jeramie Brehm 01 May 2013. Functions Personal //
 
