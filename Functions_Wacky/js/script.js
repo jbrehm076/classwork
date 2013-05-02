@@ -24,3 +24,5 @@ function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
 	var timeCYI = parseInt(timeCY, 10);
 	//define months of birth year in months and parse variable and ensure it is an integer in base 10.
 	var timeBMI = parseInt(timeBM, 10);
+	//define birth year and parse variable and ensure it is an integer in base 10.
+	var timeBYI = parseInt(timeBY, 10);
