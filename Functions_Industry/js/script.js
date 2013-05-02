@@ -11,3 +11,5 @@ var calcAdvPerc = function(candidates, openings){
 	//returns data to function call
 	return advPerc;
 }
+
+//VARIABLES
