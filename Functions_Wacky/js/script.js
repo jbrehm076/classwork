@@ -20,3 +20,5 @@ var bgCheck = prompt("Did you pass your background check? yes or no");
 function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
 	//define current time in months and parse variable and ensure it is an integer in base 10.
 	var timeCMI = parseInt(timeCM, 10);
+	//define current time in years and parse variable and ensure it is an integer in base 10.
+	var timeCYI = parseInt(timeCY, 10);
