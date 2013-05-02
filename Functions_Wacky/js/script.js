@@ -39,3 +39,12 @@ function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
 var ageActual = calcTimeMonths(currentM, currentY, birthM, birthY);
 //console push text statement of actual age.
 console.log("You are " + ageActual + " years old.");
+
+//else if statement starter. determine if age is greater than or equal to 18.
+if(ageActual <= 18){
+	//push to console statement indicating age is not greater than or equal to 18.		 
+	console.log("You are not 18 years old or older.");
+	//else if comparison and logic operator. comparing if age is over 18 and background check variable is "yes"
+	}else if(ageActual >= 18 && bgCheck == "yes"){
+	//push to console statement declaring both parts of AND boolean expression are true.
+	console.log("You are eligible to participate in this offer with valid voucher.");
