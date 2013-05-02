@@ -10,3 +10,4 @@ var calcAdvPerc = function(candidates, openings){
 	var advPerc = openings / candidates * 100;
 	//returns data to function call
 	return advPerc;
+}
