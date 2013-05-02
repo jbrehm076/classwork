@@ -26,3 +26,5 @@ function calcTimeMonths(timeCM, timeCY, timeBM, timeBY){
 	var timeBMI = parseInt(timeBM, 10);
 	//define birth year and parse variable and ensure it is an integer in base 10.
 	var timeBYI = parseInt(timeBY, 10);
+	//define total current date in months equals current year times 12 months plus months already passed.
+	var currentMonths = timeCMI + timeCYI * 12;
