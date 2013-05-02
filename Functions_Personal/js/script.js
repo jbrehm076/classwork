@@ -20,3 +20,6 @@ var curTime = prompt("What was your current time for 5 mile run in minutes? i.e.
 var percent = prompt("What percentage are you trying to exceed?");
 //define actual percentage and conversion of percenatage variable for computational use.
 var percentAct = (percent * .01);
+
+//function call with previous time input and percentage multiplier.
+var percTime = calcTimePer(prevTime, percentAct);
