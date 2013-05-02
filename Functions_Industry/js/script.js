@@ -5,3 +5,4 @@
 
 //FUNCTION
 //annonymous function to determine percentage of getting position.
+var calcAdvPerc = function(candidates, openings){
