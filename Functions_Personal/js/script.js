@@ -5,3 +5,5 @@
 //FUNCTION
 //annonymous function to calc. percentage of input number
 var calcTimePer = function(lastTime, percent){
+	//defines time percentage variable and equation equals time mult. by percantage.
+	var timePercent = lastTime * percent;
