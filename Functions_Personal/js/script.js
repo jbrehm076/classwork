@@ -39,3 +39,6 @@ if (curTime > prevTime){
    console.log("You have met your time goal and are eligible for the rest of the day off.");
    //else statement if none of above conditions are correct.
    }else {
+   //display to console negative text that goal not met.
+   console.log("You have not met your time goal and are not eligible for a day off.");
+}
