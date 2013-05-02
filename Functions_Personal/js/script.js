@@ -23,3 +23,6 @@ var percentAct = (percent * .01);
 
 //function call with previous time input and percentage multiplier.
 var percTime = calcTimePer(prevTime, percentAct);
+
+//define needed time to beat to hit goal.
+var timeActual = prevTime - percTime;
